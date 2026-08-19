@@ -1,0 +1,13 @@
+{
+  "name": "vacancy-argos-telegram-bot",
+  "version": "1.0.0",
+  "description": "vacancy.gov.uz (ARGOS) saytidan Qashqadaryo (regionSoato=18) vakansiyalarini har kuni tekshirib, Telegramga yuboradigan bot",
+  "type": "commonjs",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
